@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white: #ffff;
+    --color-orange: #e84d15;
+    --color-black: #343a40;
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.title1{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.chunho{
+    font-size: 12px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 22px;
+    /* padding: 20px; */
+}
+
+.chusang{
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.carousel{
+    margin-bottom: 80px;
+}
+
+.aboutme{
+    margin-top: -100px;
+    padding: 60px 100px 30px 100px;
+    /* margin-top: 30px; */
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-milky-white-wave-texture-satin-texture-background-image_525255.jpg);
+    background-repeat: initial;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.carousel-item img{
+    width: 100%;
+    max-height: 770px;
+}
+
+.gioithieu{
+    margin: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.gioithieu-anhtoi{
+    min-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.gioithieu-noidung{
+    margin-left: 50px
+}
+
+.gioithieu-noidung-h2{
+    margin-bottom: 30px;
+}
+
+/* Sản phẩm */
+
+.portfolio{
+    /* margin-top: 50px; */
+    padding-top: 60px; 
+}
+
+.sanpham{
+    margin: 0px 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sanpham-chitiet1{
+    height: 400px;
+    width: 320px;
+    border: solid 1px white ;
+    position: relative;
+    background-image: url(https://i.ibb.co/0B95Nfr/Screenshot-2023-04-12-203038.png);
+}
+
+.sanpham-chitiet2{
+    height: 400px;
+    width: 320px;
+    border: solid 1px white ;
+    position: relative;
+    background-image: url(https://i.ibb.co/dcRYGC2/Screenshot-2023-04-16-203418.png);
+}
+
+.sanpham-chitiet3{
+    height: 400px;
+    width: 320px;
+    border: solid 1px white ;
+    position: relative;
+    background-image: url(https://i.ibb.co/dBFMZSm/Screenshot-2023-04-16-204456.png);
+}
+
+
+.sanpham-khung{
+    margin-left: 15px;
+    margin-top: 15px;
+    border: solid 2px white;
+    height: 370px;
+    width: 290px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sanpham-demo {
+      position: absolute; 
+      padding: 7px 30px;
+      background-color: var(--color-orange);
+      color: var(--color-white);
+      font-weight: 500;
+      margin-top: 100px;
+}
+
+.sanpham-demo a{
+    color: var(--color-white);
+}
+
+.sanpham-demo a:hover{
+    color: rgb(218, 212, 212);
+    text-decoration: none;
+}
+
+.sanpham-ten{
+    margin-top: 260px;
+
+}
+
+.sanpham-title {
+    font-size: larger;
+    font-weight: 700;
+    color: var(--color-white);
+    text-align: center;
+}
+.sanpham-title a{
+    color: var(--color-white);
+}
+
+.sanpham-title a:hover{
+    color: rgb(218, 212, 212);
+    text-decoration: none;
+}
+
+.sanpham-nenduoi{
+    width: 320px;
+    height: 148px;
+    border-top: 1px solid rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 250px;
+    /* background-color: rgba(#00000000, #00000000, #00000000, 0.5); */
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+
+/* Tin baif */
+.new{
+    width: 100%;
+    margin: 0px 100px;
+}
+
+.tinbai{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tinbai-khung{
+    height: 450px;
+    width: 350px;
+    /* border: 1px solid; */
+    margin-bottom: 50px;
+}
+
+.tinbai-khungtren{
+    height: 280px;
+    width: 350px;
+    /* border: 1px solid; */
+    position: relative;
+}
+.tinbai-khungtren img{
+    /* height: 280px;
+    width: 350px; */
+    width: 99%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.inbai-khungduoi{
+    text-align: center;
+}
+
+.tinbai-title{
+    padding: 20px;
+}
+
+.tinbai-title a{
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.tinbai-title a:hover{
+    color: #dd6a6a;
+    text-decoration: none;
+}
+
+.kengang{
+    width: 80px;
+    border: 1px solid var(--color-orange);
+    margin: auto;
+}
+
+.tinbai-chunho{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://nhadepso.com/wp-content/uploads/2023/02/top-50-y-tuong-hinh-nen-trang-dep-tinh-khoi-cuc-ky-doc-dao_4.jpg);
+}
+
+.dichvu-chitiet{
+    display: flex;
+}
+
+.dichvu-trai{
+    margin-left: 80px;
+}
+
+.dichvu-trai h4{
+    margin-bottom: 40px;
+}
+
+.dichvu-trai ul{
+    text-decoration: none;
+}
+
+.dichvu-trai ul li{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.dichvu-trai ul li i{
+    color: var(--color-orange);
+    font-size: larger;
+    height: 50px;
+    border: 2px solid var(--color-orange);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.dichvu-trai ul li p{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.dichvu-phai{
+    margin-left: 60px;
+}
+
+
+
+/* Footer */
+.cuoitrang{
+    width: 100%;
+    height: 120px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.footer-rong{
+    height: 40px;
+}
+
+.footer-kengang{
+    width: 80%;
+    border: 1px solid var(--color-white);
+    margin: auto;
+    
+}
+.footer-name{
+    margin-top: 20px;
+}

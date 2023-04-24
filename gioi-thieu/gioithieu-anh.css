@@ -1,0 +1,223 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+:root{
+    --color-white: #ffff;
+    --color-orange: #e84d15;
+    --color-black: #343a40;
+}
+
+.anh{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.anhbia{
+    width: 100%;
+    max-height: 380px;
+
+}
+
+.tung{
+    display: flex;
+}
+
+.anhtoi{
+    width: 18%;
+    margin-top: -30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: white;
+}
+
+.tung__name{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* .gioithieu__list{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    
+}
+
+li{
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+a:hover{
+    color: blue;
+}
+
+.gt__list-drd{
+    position: relative;
+}
+
+.gt__list-drd::after{
+
+} */
+
+.cach{
+    margin-left: 20PX;
+}
+
+.cach:hover{
+    color: rgb(91, 91, 235);
+}
+
+
+
+/* PHAN THAN */
+
+.than{
+    margin-top: 10px;
+    background-color: rgb(218, 215, 213);
+    /* height: 700px; */
+    width: 100%;
+}
+
+.than0{
+    height: 20px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.than1{
+    height: 800px;
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border-radius: 20px;
+    /* height: 100vh; */
+    /* background-color: #dadada; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    transition: 0.25s;
+}
+
+.image{
+    width: 30%;
+    height: 320px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.image:hover img{
+    transform: scale(1.2); /*Phóng to ảnh lên gấp 1.2*/
+}
+
+.gallery{
+    position: fixed ;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.close{
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    font-size: 35px;
+}
+
+.control{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+}
+
+.control.prev{ /* ko cos dấu cách vì phải có cả control và prev thì css ms thực thi . Khi có cách thì chỉ cần có 1 class thì sẽ thực thi css*/
+    left: 15px;
+}
+.control.next{
+    right: 15px;
+}
+
+.gallery__inner{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(0.8);
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+/* Footer */
+.cuoitrang{
+    /* margin-top: 100px;  */
+    width: 100%;
+    height: 120px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.footer-rong{
+    height: 40px;
+}
+
+.footer-kengang{
+    width: 80%;
+    border: 1px solid var(--color-white);
+    margin: auto;
+    
+}
+.footer-name{
+    margin-top: 20px;
+}

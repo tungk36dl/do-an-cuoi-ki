@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="tb1.css">
+    <!-- Cài đặt bs4-css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Cai dat FA4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Cai dat icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://fonts.cdnfonts.com/css/palace-script-mt" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Cài đặt bs4-js (Nếu không, Dropdown Menu Link sẽ không hoạt động đúng, chỉ Link mà ko dropdown)-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <!-- <img style="height: 50px; border-radius: 50%; "
+                    src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/276308969_522317632696493_6201340963703098825_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=c3IC5Lgchd8AX_gvppa&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAJMfwTlot8eweSyoOvlUTTGG22pEIm72OMZS9AArFuRg&oe=63BE7C5E"
+                    alt=""> -->
+                <!-- <span style="font-family:'Palace Script MT', sans-serif; font-size: 40px;">
+                    Thế Tùng Auto
+                </span> -->
+                <img src="https://www.shutterstock.com/image-vector/monogram-logo-letter-tt-sliced-600w-1177989664.jpg" alt="logo" height="40px" style="border-radius: 90px;">
+                <span style="font-family:sans-serif; font-size: 25px;">
+                    Thế Tùng
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                aria-controls="navbarsExample05" aria-expanded="false" aria-label="Chuyển đổi điều hướng thành">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/trang-chu.htm">
+                            <i class="bi bi-house-heart"></i> Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gioi-thieu.html">
+                            <i class="bi-file-person"></i> Giới Thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/san-pham.html">
+                            <i class="bi-person-lines-fill"></i>Sản Phẩm
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/tinbai.html">
+                            <i class="bi-newspaper"></i> Tin Bài
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dichvu.html">
+                             <i class="fa fa-server" aria-hidden="true"></i>Dịch Vụ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lienhe.html">
+                            <i class="fa fa-address-card" aria-hidden="true"></i> Liên Hệ
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="timkiem">
+            <input class="timkiem-input" type="text" placeholder="Tìm kiếm....">
+            <i class="fa fa-search timkiem-icon" aria-hidden="true"></i>
+        </div>
+        <div class="tinbai">
+            <div class="tinbai-trai">
+                <p class="title1">Tin tức</p>
+                <ul>
+                    <li><a href="tb-website.html">Website</a></li>
+                    <li><a href="tb-design.html">Design</a></li>
+                    <li><a href="tb-maketing.html">Digital Maketing</a></li>
+                    <li><a href="tb-app.html">App Mobile</a></li>
+                </ul>
+            </div>
+            <div class="tinbai-phai">
+                <div class="tinbai-title1 title1">
+                    Những điều bạn cần biết về Web Design
+                </div>
+                <hr>
+                <p class="tb-chunho chunho">
+                    Ngày cập nhật : 19/04/2023
+                </p>
+                <p class="tb-bodytext">
+                    Trong thời điểm kinh tế cạnh tranh mang tính toàn cầu như hiện nay, việc sở hữu một website được xem là tiêu chuẩn bắt buộc đối với doanh nghiệp. Và Design là một phần quan trọng không thể thiếu trong hoạt động của nhiều cá nhân, tổ chức và doanh nghiệp hiện đại.
+                </p>
+                <p class="tb-bodytext">
+                    Thiết kế website là công việc tạo ra chất lượng bố cục trang web và đồ họa chất lượng cao để truyền đạt một thông điệp hiệu quả đến đối tượng mục tiêu khách hàng mà cá nhân/doanh nghiệp mong muốn. Một thiết kế ấn tượng theo đúng yêu cầu khách hàng, đảm bảo tính duy nhất và không trùng lặp.
+                </p>
+                
+                <img src="https://optech.vn/uploads/images/design.jpg" alt="">
+                <p id="tb-chunho1" class=" chunho">
+                    
+                </p>
+                <p>
+                    Để thiết kế một website chuẩn seo, sử dụng các công nghệ lập trình mới, tích hợp những tính năng thông minh, tối ưu toàn bộ website cả về mỹ thuật và kỹ thuật đòi hỏi bạn phải nắm bắt tất cả mọi kiến thức từ cơ bản đến nâng cao trong lĩnh vực này. OPTECH là đơn vị có chuyên môn cao trong lĩnh vực Web Design, chúng tôi sẽ giúp bạn có những cái nhìn thấu đáo hơn về toàn bộ những kiến thức liên quan đến Design đơn giản và dễ hiểu nhất.
+                </p>
+                <img src="https://optech.vn/uploads/images/web-design.jpg" alt="">
+                
+                <p>
+                    Một số tiêu chí để đánh giá thiết kế website đạt chuẩn và chất lượng như sau:
+                </p>
+                <p class="tb-bodytext">
+                    <ul id="tb-ul">
+                        <li> Thiết kế website cao cấp, hiệu ứng, bố cục đẹp
+                        </li>
+                        <li>  Website độc quyền theo ý tưởng và chiến lược riêng</li>
+                        <li>Phù hợp với từng thương hiệu và ngành nghề</li>
+                        <li> Các thao tác quản lí website dễ dàng</li>
+                        <li>Thân thiện người dùng và các thiết bị di động</li>
+                        <li>Web Design chuẩn SEO, Adwords, mạng xã hội</li>
+                        <li>Bảo mật và ổn định</li>
+                    </ul>
+                </p>
+
+                <br>
+               
+                <br>
+                <hr>
+                
+            </div>
+        </div>
+    </main>
+    <footer class="cuoitrang">
+        <div class="footer-rong"></div>
+        <div class="footer-kengang"></div>
+        <div class="footer-name title2">
+            @2023.Pham The Tung
+        </div>
+    </footer>
+</body>

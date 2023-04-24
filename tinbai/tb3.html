@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="tb1.css">
+    <!-- Cài đặt bs4-css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Cai dat FA4.7 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Cai dat icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://fonts.cdnfonts.com/css/palace-script-mt" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Cài đặt bs4-js (Nếu không, Dropdown Menu Link sẽ không hoạt động đúng, chỉ Link mà ko dropdown)-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <!-- <img style="height: 50px; border-radius: 50%; "
+                    src="https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/276308969_522317632696493_6201340963703098825_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=c3IC5Lgchd8AX_gvppa&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAJMfwTlot8eweSyoOvlUTTGG22pEIm72OMZS9AArFuRg&oe=63BE7C5E"
+                    alt=""> -->
+                <!-- <span style="font-family:'Palace Script MT', sans-serif; font-size: 40px;">
+                    Thế Tùng Auto
+                </span> -->
+                <img src="https://www.shutterstock.com/image-vector/monogram-logo-letter-tt-sliced-600w-1177989664.jpg"
+                    alt="logo" height="40px" style="border-radius: 90px;">
+                <span style="font-family:sans-serif; font-size: 25px;">
+                    Thế Tùng
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+                aria-controls="navbarsExample05" aria-expanded="false" aria-label="Chuyển đổi điều hướng thành">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/trang-chu.htm">
+                            <i class="bi bi-house-heart"></i> Trang chủ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gioi-thieu.html">
+                            <i class="bi-file-person"></i> Giới Thiệu
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/san-pham.html">
+                            <i class="bi-person-lines-fill"></i>Sản Phẩm
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/tinbai.html">
+                            <i class="bi-newspaper"></i> Tin Bài
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dichvu.html">
+                             <i class="fa fa-server" aria-hidden="true"></i>Dịch Vụ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lienhe.html">
+                            <i class="fa fa-address-card" aria-hidden="true"></i> Liên Hệ
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="timkiem">
+            <input class="timkiem-input" type="text" placeholder="Tìm kiếm....">
+            <i class="fa fa-search timkiem-icon" aria-hidden="true"></i>
+        </div>
+        <div class="tinbai">
+            <div class="tinbai-trai">
+                <p class="title1">Tin tức</p>
+                <ul>
+                    <li><a href="tb-website.html">Website</a></li>
+                    <li><a href="tb-design.html">Design</a></li>
+                    <li><a href="tb-maketing.html">Digital Maketing</a></li>
+                    <li><a href="tb-app.html">App Mobile</a></li>
+                </ul>
+            </div>
+            <div class="tinbai-phai">
+                <div class="tinbai-title1 title1">
+                    Khi code mà bí thì phải làm sao?
+                </div>
+                <hr>
+                <p class="tb-chunho chunho">
+                    Ngày cập nhật : 19/04/2023
+                </p>
+
+                <img src="https://toidicodedao.files.wordpress.com/2020/12/ltalk57-1.jpg?w=672&h=372&crop=1" alt="">
+                <br>
+                <br>
+                <p>
+                    Với những bạn đang bắt đầu học lập trình hoặc vừa mới đi làm, đôi khi các bạn sẽ bị… bí, không biết
+                    code hoặc giải quyết vấn đề như thế nào (Thật ra mình đi làm lâu rồi nhiều khi cũng bị).
+                </p>
+                <p>
+                    Cảm giác … không biết code như thế nào, không biết giải quyết vấn đề ra sao rất là khó chịu. Gặp
+                    nhiều bạn sẽ dễ nản, chán code, chán ngành.
+                </p>
+                <p>
+                    Do vậy, hôm nay mình chia sẻ 5 kinh nghiệm hay ho trị bệnh … bí code, các bạn có thể áp dụng thử
+                    nhé! Theo kinh nghiệm của mình thì 96.69% các trường hợp đều áp dụng được và có hiệu quả nha!
+                </p>
+                <p class="tb-title2 title2">
+                    1. Google vấn đề để xem người khác giải quyết ra sao
+                </p>
+                <p>
+                    Nói thật, 99% những lỗi bạn gặp khi code, người khác đã gặp rồi, nên chỉ cần Google là sẽ tìm ra
+                    được cách giải
+                </p>
+                <p>
+                    Đa phần các bạn mới học code thường chưa biết nhiều keyword, nên không biết Google thế nào cho đúng.
+                    Đây là 1 số kinh nghiệm Google của mình:
+                </p>
+                <p class="tb-bodytext">
+                <ul id="tb-ul">
+                    <li> Tập Google bằng tiếng Anh chứ đừng dùng tiếng Việt</li>
+                    <li>Đọc message lỗi, copy message lỗi bỏ vào Google, nhớ bỏ tên biến/tên hàm/tên project ra</li>
+                    <li>Ghi rõ ngôn ngữ/công nghệ để search cho dễ (vd “JS remove special character”, “Python connect
+                        MongoDB”)</li>
+                    <li> Kết quả thường có trên Stackoverflow, hoặc 1 số thread Github</li>
+                </ul>
+                </p>
+                <img src="https://toidicodedao.files.wordpress.com/2020/12/screenshot-2020-12-24-at-4.03.05-pm.jpg"
+                    alt="">
+                <p class="tb-chunho chunho">
+                    Mấy ông senior/team lead vẫn Google thường xuyên nha =))
+                </p>
+                <p class="tb-title2 title2">
+                    2. Tách thành nhiều vấn đề nhỏ hơn cho dễ xử lý
+                </p>
+                <p>
+                    Với các bạn bắt đầu làm đồ án, mới đi làm, các bạn sẽ bị khó khăn khi muốn làm 1 chức năng. Vì chức
+                    năng đó lớn quá, chưa có kinh nghiệm các bạn không biết bắt đầu từ đâu cả.
+
+                </p>
+                <p>
+                    Cách giải quyết cũng khá đơn giản, chỉ cần tách vấn đề ra thành nhiều vấn đề nhỏ hơn là được. Ví dụ
+                    bạn muốn làm chức năng đăng nhập:
+                </p>
+                <p class="tb-bodytext">
+                <ul id="tb-ul">
+                    <li> Đăng nhập phải có form để điền username, password. Vậy bạn phải design và code cái form cho
+                        người dùng điền 2 cái đó vào.t</li>
+                    <li>Đăng nhập phải check username, password đã có trong database chưa. Nếu chưa có thì sao. Bạn phải
+                        viết code back-end hoặc SQL để check cái này.</li>
+                    <li>Làm sao để back-end nhận username, password nhận được từ phía người dùng? Phải viết code trong
+                        controller để đọc dữ liệu. Sau đó đưa chúng vào hàm check mật khẩu phía trên</li>
+                    <li> Sau khi kiểm tra đúng mật khẩu thì làm gì? Code chức năng cần làm khi đúng mật khẩu (Login, đưa
+                        user vào session v…v)</li>
+                </ul>
+                </p>
+                <p>
+                    Đấy, khi tách vấn đề thành nhiều vấn đề nhỏ hơn, bạn có thể dễ dàng code từng thứ rồi ghép chúng lại
+                    với nhau. Bản thân mình cũng hay dùng to-do list như hình dưới để code, code xong check là được.
+                </p>
+                <img src="https://i0.wp.com/thinhnotes.com/wp-content/uploads/2019/06/Use-case-diagram-va-5-sai-lam-thuong-gap-header.png?fit=945%2C594&ssl=1"
+                    alt="">
+                <p class="tb-title2 title2">
+                    3. Thử giải quyết vấn đề dễ hơn trước
+                </p>
+                <p class="tb-title2 title2">
+                    4. Đọc lại document, hỏi ý kiến đồng nghiệp
+                </p>
+                <p class="tb-title2 title2">
+                    5. Đi uống, đi dạo đi ngủ (1 mình)
+                </p>
+                <p>
+                    Trong khi làm việc, hẳn bạn đã từng trải qua cảm giác code hoài không được, chạy bị lỗi không biết
+                    tại sao, càng ngồi lâu càng bực mình mà không giải quyết được vấn đề.
+                </p>
+                <p>
+                    Lúc này, cách hay nhất là bạn nên … đứng dậy, gác vấn đề qua một bên. Sau đó đi rót nước uống, làm
+                    một cốc cà phê, hoặc đi dạo vòng vòng trong công ty rồi quay lại.
+                </p>
+                <p>
+                    Lúc này, bộ não của bạn sẽ được refresh lại, đôi khi bạn sẽ tự … bật ra cách giải, nhìn ra bạn đã
+                    sai chỗ nào! Hoặc có thể đi giải quyết vấn đề khác, sau đó đi ngủ 1 giấc, sáng hôm sau quay lại bỗng
+                    dưng não lại nghĩ ra cách giải quyết vấn đề cũ.
+                </p>
+                <p>
+                    Nghe hơi vô lý đúng không nào? Không tin thì các bạn cứ thử xem sao nhé, nếu không hiệu quả cứ lên
+                    đây đòi tiền thằng Code Dạo.
+                </p>
+                <img src="https://toidicodedao.files.wordpress.com/2020/12/screenshot-2020-12-24-at-4.07.25-pm-e1608797270660.jpg"
+                    alt="">
+                <p class="tb-chunho chunho">
+                    Dắt gấu chó, lộn, dắt gấu và chó đi dạo sẽ giúp bạn refresh đầu óc, giải quyết vấn đề nha!
+
+                </p>
+                <p class="tb-title2 title2">
+                    Tạm kết
+                </p>
+                <p>
+                    Đấy, trong bài này, mình đã chia sẻ với các bạn những kinh nghiệm hay ho. Bản thân mình thấy cách 1 và cách 5 là hiệu quả nhất!
+                </p>
+                <p>
+                    Còn bạn thấy cách nào hay ho thì cứ chia sẻ trong mục comment nhé!
+                </p>
+                <br>
+                <hr>
+                <p class="tb-title2 title2">
+                    Các bài viết liên quan
+                </p>
+                <div class="tinbai-phaiduoi">
+                    <div class="tinbai-chitiet">
+                        <div class="tinbai-khung">
+                            <div class="tinbai-khungtren">
+                                <img src="https://png.pngtree.com/element_our/20200610/ourlarge/pngtree-computer-hacker-image_2247730.jpg"
+                                    alt="">
+                            </div>
+                            <div class="tinbai-khungduoi">
+                                <h3 class="title2 tinbai-title"><a href="./tinbai/tb1.html">Dăm ba cách hack sập 1
+                                        website nào đó</a></h3>
+                                <div class="kengang">
+
+                                </div>
+                                <div class="chunho tinbai-chunho">
+                                    April 25,2023 - 3 comments
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tinbai-chitiet">
+                        <div class="tinbai-khung">
+                            <div class="tinbai-khungtren">
+                                <img src="https://cdn.baogiaothong.vn/files/baogiay1/2016/09/23/minh-hoa-nghi-1958.jpg"
+                                    alt="">
+                            </div>
+                            <div class="tinbai-khungduoi">
+                                <h3 class="title2 tinbai-title"><a href="">Khi code mà bí thì phải làm sao?</a></h3>
+                                <div class="kengang">
+
+                                </div>
+                                <div class="chunho tinbai-chunho">
+                                    April 25,2023 - 3 comments
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tinbai-chitiet">
+                        <div class="tinbai-khung">
+                            <div class="tinbai-khungtren">
+                                <img src="https://nld.mediacdn.vn/2014/song-hanh-phuc-1418291198735.jpg" alt="">
+                            </div>
+                            <div class="tinbai-khungduoi">
+                                <h3 class="title2 tinbai-title"><a href="">Cách giải tỏa stress sau giờ học để đầu óc
+                                        được thư giãn </a></h3>
+                                <div class="kengang">
+
+                                </div>
+                                <div class="chunho tinbai-chunho">
+                                    April 25,2023 - 3 comments
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="cuoitrang">
+        <div class="footer-rong"></div>
+        <div class="footer-kengang"></div>
+        <div class="footer-name title2">
+            @2023.Pham The Tung
+        </div>
+    </footer>
+</body>

@@ -1,0 +1,186 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+:root{
+    --color-white: #ffff;
+    --color-orange: #e84d15;
+    --color-black: #343a40;
+}
+
+a{
+    color: var(--color-white);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.title1{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.chunho{
+    font-size: 12px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 22px;
+    /* padding: 20px; */
+}
+
+
+.anh{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.anhbia{
+    width: 100%;
+    max-height: 380px;
+    
+}
+
+.tung{
+    display: flex;
+}
+
+.anhtoi{
+    width: 18%;
+    margin-top: -30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: white;
+}
+
+.tung__name{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#gioithieu-fb{
+    color:black;
+    text-decoration: none;
+}
+
+/* .tung__name a h1:hover{
+    color: black;
+    font-weight: 700;
+} */
+
+/* .gioithieu__list{
+    margin-top: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    
+}
+
+li{
+    font-size: large;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+a:hover{
+    color: blue;
+}
+
+.gt__list-drd{
+    position: relative;
+}
+
+.gt__list-drd::after{
+
+} */
+
+.cach{
+    margin-left: 20PX;
+}
+
+.cach:hover{
+    color: rgb(91, 91, 235);
+}
+
+
+
+/* PHAN THAN */
+
+.than{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: rgb(218, 215, 213);
+    /* height: 700px; */
+    width: 100%;
+}
+
+.than0{
+    height: 20px;
+}
+
+.than1{
+    /* height: 600px; */
+    padding: 20px;
+    /* margin-bottom: 50px; */
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.than__gt{
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.than__tieusu{
+    text-align: center;
+    font-size: larger;
+}
+
+.bi__to{
+    font-size: x-large;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.than1__fill{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+/* Footer */
+.cuoitrang{
+    width: 100%;
+    height: 120px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    text-align: center;
+}
+
+.footer-rong{
+    height: 40px;
+}
+
+.footer-kengang{
+    width: 80%;
+    border: 1px solid var(--color-white);
+    margin: auto;
+    
+}
+.footer-name{
+    margin-top: 20px;
+}
